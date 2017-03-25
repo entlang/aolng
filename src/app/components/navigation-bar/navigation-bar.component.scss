@@ -1,0 +1,41 @@
+@import '../../../sass/base/variables';
+
+.navigation-bar{
+    width: 100%;
+    background: $color-navigation-bar;
+}
+
+.navbar{
+    max-width: 1280px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.navbar-collapse{
+    display: flex;
+}
+
+.navbar-nav{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.nav-item{
+    width: 100%;
+    border-left: 1px solid #777484;
+
+    &:last-child{
+        background: $color-hot-offer;
+    }
+}
+
+.nav-link{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-title {
+    font-size: 12px;
+}

@@ -1,0 +1,426 @@
+{
+  "categories": [
+    {
+      "name": "Washers & Dryers",
+      "nameLines": [
+        "Washers",
+        "& Dryers"
+      ],
+      "isCatItem": true,
+      "catTitle": "Laundry Appliances",
+      "catIndex": "2",
+      "color": "#89e197",
+      "icon": "icon-nav-washers",
+      "image": "images/fe/homepage/homepage-category-laundry.jpg",
+      "url": "/home-laundry-equipment.aspx",
+      "className": "washersdryers",
+      "subCategories": [
+        {
+          "name": "Washing Machines",
+          "icon": "icon-nav-washers",
+          "url": "/washing-machine-category/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Dryers",
+          "icon": "icon-nav-sub-dryers",
+          "url": "/clothes-dryer-category/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Washer Dryers",
+          "icon": "icon-nav-sub-washerdryer",
+          "url": "/washer-dryer-combo/",
+          "iconSize": "4.7em",
+          "tooltipSide": "left"
+        }
+      ]
+    },
+    {
+      "name": "Fridges & Freezers",
+      "nameLines": [
+        "Fridges &",
+        "Freezers"
+      ],
+      "isCatItem": true,
+      "catTitle": "Fridges & Freezers",
+      "catIndex": "1",
+      "color": "#aee6f5",
+      "icon": "icon-nav-fridges",
+      "image": "images/fe/homepage/homepage-category-fridges.jpg",
+      "url": "/fridges-and-freezers-sale.aspx",
+      "className": "fridgesfreezers",
+      "subCategories": [
+        {
+          "name": "Fridges",
+          "icon": "icon-nav-fridges",
+          "url": "/fridges-all/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Freezers",
+          "icon": "icon-nav-sub-freezers",
+          "url": "/freezers-all/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Beverage Fridges",
+          "icon": "icon-nav-sub-beveragefridge",
+          "url": "/beverages-fridges/",
+          "iconSize": "3.8em",
+          "tooltipSide": "left"
+        }
+      ]
+    },
+    {
+      "name": "Dishwashers, Sinks & Taps",
+      "nameLines": [
+        "Dishwashers",
+        "Sinks & Taps"
+      ],
+      "isCatItem": true,
+      "catTitle": "Dishwashers, Sinks & Taps",
+      "catIndex": "6",
+      "color": "#a4e9d6",
+      "icon": "icon-nav-dishwashers",
+      "image": "images/fe/homepage/homepage-category-dishwashers.jpg",
+      "url": "/dishwashers-sale.aspx",
+      "className": "dishwashers",
+      "subCategories": [
+        {
+          "name": "Dishwashers",
+          "icon": "icon-nav-dishwashers",
+          "url": "/dishwashers/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Sinks",
+          "icon": "icon-nav-sub-sinks",
+          "url": "/sinks/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Taps",
+          "icon": "icon-nav-sub-taps",
+          "url": "/taps/",
+          "iconSize": "3.8em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Food Waste Disposal",
+          "icon": "icon-nav-sub-foodwaste",
+          "url": "/food-waste-disposers/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        }
+      ]
+    },
+    {
+      "name": "Ovens & Cooking",
+      "nameLines": [
+        "Ovens &",
+        "Cooking"
+      ],
+      "isCatItem": true,
+      "catTitle": "Ovens & Cooking",
+      "catIndex": "5",
+      "color": "#ffe44c",
+      "icon": "icon-nav-cooktops",
+      "image": "images/fe/homepage/homepage-category-cooking.jpg",
+      "url": "/cooking-appliances.aspx",
+      "className": "ovens",
+      "subCategories": [
+        {
+          "name": "Built in Ovens",
+          "icon": "icon-nav-sub-oven",
+          "url": "/ovens.aspx",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Stoves",
+          "icon": "icon-nav-sub-stove",
+          "url": "/all-stoves/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Cooktops",
+          "icon": "icon-nav-cooktops",
+          "url": "/all-cooktops/",
+          "iconSize": "3em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Rangehoods",
+          "icon": "icon-nav-sub-rangehoods",
+          "url": "/all-rangehoods/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Cooking Appliance Accessories",
+          "icon": "icon-nav-sub-cookingappliances",
+          "url": "/cooking-appliance-accessories/",
+          "iconSize": "3.8em",
+          "tooltipSide": "top"
+        },
+        {
+          "name": "Kitchen Bundles",
+          "icon": "icon-nav-sub-kitchenbundles",
+          "url": "/oven-cooktop-packages/",
+          "iconSize": "3em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Microwaves",
+          "icon": "icon-nav-sub-microwaves",
+          "url": "/microwaves/",
+          "iconSize": "3em"
+        }
+      ]
+    },
+    {
+      "name": "TV, Audio & Electronics",
+      "nameLines": [
+        "TV, Audio &",
+        "Electronics"
+      ],
+      "isCatItem": true,
+      "catTitle": "TV, Audio & Electronics",
+      "catIndex": "8",
+      "color": "#8b7de2",
+      "icon": "icon-nav-tv-audio-electronics",
+      "image": "images/fe/homepage/homepage-category-tvaudio.jpg",
+      "url": "/tvs-and-audio/",
+      "className": "tvaudio",
+      "subCategories": [
+        {
+          "name": "TVS",
+          "icon": "icon-nav-sub-tvs",
+          "url": "/tvs/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Home Theatre",
+          "icon": "icon-nav-sub-hometheatre",
+          "url": "/home-theatre-audio-home/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Audio",
+          "icon": "icon-nav-sub-audio",
+          "url": "/audio-all/",
+          "iconSize": "3.8em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Blu-ray, DVD & PVR",
+          "icon": "icon-nav-sub-dvd",
+          "url": "/blu-ray-dvd-pvr/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Headphones",
+          "icon": "icon-nav-sub-headphones",
+          "url": "/headphones-home/",
+          "iconSize": "3.8em",
+          "tooltipSide": "top"
+        },
+        {
+          "name": "Accessories",
+          "icon": "icon-nav-sub-accessories",
+          "url": "/accessories-stands-security/",
+          "iconSize": "3.8em"
+        }
+      ]
+    },
+    {
+      "name": "Heating & Cooling",
+      "nameLines": [
+        "Heating",
+        "& Cooling"
+      ],
+      "isCatItem": true,
+      "catTitle": "Heating & Cooling",
+      "catIndex": "9",
+      "color": "#5590e0",
+      "icon": "icon-nav-heating-cooling",
+      "image": "images/fe/homepage/homepage-category-heating.jpg",
+      "url": "/heating-and-cooling.aspx",
+      "className": "heatcool",
+      "subCategories": [
+        {
+          "name": "Air Conditioning",
+          "icon": "icon-nav-sub-aircons",
+          "url": "/air-conditioning-category/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Fans",
+          "icon": "icon-nav-sub-fans",
+          "url": "/fans/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Heaters",
+          "icon": "icon-nav-sub-heaters",
+          "url": "/heaters.aspx",
+          "iconSize": "5em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Hot Water Systems",
+          "icon": "icon-nav-sub-hotwatersystems",
+          "url": "/hot-water-systems/",
+          "iconSize": "5em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Air Treatment",
+          "icon": "icon-nav-sub-airtreatment",
+          "url": "/air-treatment/",
+          "iconSize": "3.8em",
+          "tooltipSide": "top"
+        }
+      ]
+    },
+    {
+      "name": "Small Appliances",
+      "nameLines": [
+        "Small",
+        "Appliances"
+      ],
+      "isCatItem": true,
+      "catTitle": "Small Appliances",
+      "catIndex": "3",
+      "color": "#ee897f",
+      "icon": "icon-nav-small-appliances",
+      "image": "images/fe/homepage/homepage-category-appliances.jpg",
+      "url": "/small-appliances.aspx",
+      "className": "smallappliances",
+      "subCategories": [
+        {
+          "name": "Beverage Preparation",
+          "icon": "icon-nav-sub-coffeemachines",
+          "url": "/beverage-preparation/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Mixing & Blending",
+          "icon": "icon-nav-sub-mixingblending",
+          "url": "/mixing-blending/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "Cooking",
+          "icon": "icon-nav-sub-cooker",
+          "url": "/cooking-smalls/",
+          "iconSize": "3.5em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Toasting",
+          "icon": "icon-nav-sub-toaster",
+          "url": "/toasting/",
+          "iconSize": "3.5em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "Irons",
+          "icon": "icon-nav-sub-irons",
+          "url": "/garment-care/",
+          "iconSize": "3em",
+          "tooltipSide": "top"
+        },
+        {
+          "name": "Microwaves",
+          "icon": "icon-nav-sub-microwaves",
+          "url": "/microwaves/",
+          "iconSize": "3em",
+          "tooltipSide": "left"
+        },
+        {
+          "name": "Vacuums",
+          "icon": "icon-nav-sub-vacuums",
+          "url": "/vacuum-cleaners-sale.aspx",
+          "iconSize": "3.8em"
+        },
+        {
+          "name": "Floorcare",
+          "icon": "icon-nav-sub-floorcare",
+          "url": "/floorcare/",
+          "iconSize": "3.8em"
+        },
+        {
+          "name": "Other Small Appliances",
+          "icon": "icon-nav-small-appliances",
+          "url": "/other-small-appliances/",
+          "iconSize": "3.8em"
+        }
+      ]
+    },
+    {
+      "name": "BBQs",
+      "nameLines": [
+        "BBQs"
+      ],
+      "isCatItem": "true",
+      "catTitle": "BBQs",
+      "catIndex": "7",
+      "color": "#ff944d",
+      "icon": "icon-nav-bbqs",
+      "image": "images/fe/homepage/homepage-category-bbq.jpg",
+      "url": "/bbq-barbeque-sale.aspx",
+      "className": "bbqs",
+      "subCategories": [
+        {
+          "name": "BBQs",
+          "icon": "icon-nav-bbqs",
+          "url": "/bbq-barbeques/",
+          "iconSize": "3.8em",
+          "tooltipSide": "right"
+        },
+        {
+          "name": "BBQ Rangehoods",
+          "icon": "icon-nav-sub-bbqrangehoods",
+          "url": "/bbq-rangehoods/",
+          "iconSize": "3.8em",
+          "tooltipSide": "bottom"
+        },
+        {
+          "name": "BBQ Accessories",
+          "icon": "icon-bbq-accessories",
+          "url": "/bbq-accessories/",
+          "iconSize": "4.7em",
+          "tooltipSide": "bottom"
+        }
+      ]
+    },
+    {
+      "name": "Hot Offers",
+      "nameLines": [
+        "Hot",
+        "Offers"
+      ],
+      "isCatItem": false,
+      "className": "hot-offers",
+      "icon": "icon-nav-hotoffers",
+      "url": "/hot-offers/",
+      "width": "10%"
+    }
+  ]
+}
