@@ -34,6 +34,10 @@
     font-size: 12px;
 }
 
+.dropdown-menu {
+    margin-top: 0;
+}
+
 @media screen and (max-width: $break-sm-max) {
     .nav-link {
         flex-direction: row;
@@ -48,6 +52,9 @@
     .nav-item {
         &.dropdown:hover>.dropdown-menu {
             display: block;
+        }
+        &.show>.dropdown-menu {
+            display: none !important;
         }
     }
     .navbar-brand {
