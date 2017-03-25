@@ -50,11 +50,11 @@
         padding: 0;
     }
     .nav-item {
+        &.show>.dropdown-menu {
+            display: none;
+        }
         &.dropdown:hover>.dropdown-menu {
             display: block;
-        }
-        &.show>.dropdown-menu {
-            display: none !important;
         }
     }
     .navbar-brand {
