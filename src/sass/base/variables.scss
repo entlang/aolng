@@ -1,4 +1,14 @@
 //---------- colors ---------//
 $color-navigation-bar: #292b2c;
-$color-navigation-bar-hover: #777484;
+$color-navigation-bar-border: #777484;
 $color-hot-offer: #fe873c;
+//grid breakpoints
+$break-xs-min: 0;
+$break-xs-max: 575px;
+$break-sm-min: 576px;
+$break-sm-max: 767px;
+$break-md-min: 768px;
+$break-md-max: 991px;
+$break-lg-min: 992px;
+$break-lg-max: 1199px;
+$break-xl-min: 1200px;

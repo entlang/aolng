@@ -1,41 +1,56 @@
 @import '../../../sass/base/variables';
-
-.navigation-bar{
+.navigation-bar {
     width: 100%;
     background: $color-navigation-bar;
 }
 
-.navbar{
+.navbar {
+    display: flex;
     max-width: 1280px;
-    padding: 0;
     margin: 0 auto;
 }
 
-.navbar-collapse{
-    display: flex;
-}
-
-.navbar-nav{
+.navbar-nav {
     flex-grow: 1;
     flex-basis: 0;
 }
 
-.nav-item{
+.nav-item {
     width: 100%;
-    border-left: 1px solid #777484;
-
-    &:last-child{
+    &:last-child {
         background: $color-hot-offer;
     }
 }
 
-.nav-link{
+.nav-link {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar-title {
     font-size: 12px;
+}
+
+@media screen and (max-width: $break-sm-max) {
+    .nav-link {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: $break-md-min) {
+    .navbar {
+        padding: 0;
+    }
+    .nav-item {
+        &.dropdown:hover>.dropdown-menu {
+            display: block;
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
 }

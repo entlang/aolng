@@ -4,15 +4,20 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <!--<a class="navbar-brand" href="#">Navbar</a>-->
-
+    <a class="navbar-brand" href="#">Menu</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item" *ngFor="let category of categories">
-          <a class="nav-link" href="#">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown" *ngFor="let category of categories">
+          <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)">
             <i class="{{ category.icon }}"></i>
-            <span *ngFor="let nameLine of category.nameLines" class="navbar-title">{{ nameLine }}</span>
+            <span class="navbar-title" *ngFor="let nameLine of category.nameLines">{{ nameLine }}</span>
           </a>
+          <div class="dropdown-menu" *ngIf="category.subCategories">
+            <a class="dropdown-item" *ngFor="let subCategory of category.subCategories" href="javascript:void(0)">
+              <i class="{{ subCategory.icon }}"></i>
+              <span class="navbar-title">{{ subCategory.name }}</span>
+            </a>
+          </div>
         </li>
       </ul>
     </div>
