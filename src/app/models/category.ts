@@ -1,4 +1,4 @@
-export interface Categories {
+export interface Category {
     name: string;
     nameLines: string[];
     isCatItem: boolean;
@@ -9,10 +9,10 @@ export interface Categories {
     image: string;
     url: string;
     className: string;
-    subCategories: SubCategories[];
+    subCategories: SubCategory[];
 }
 
-interface SubCategories {
+interface SubCategory {
     name: string;
     icon: string;
     url: string;
