@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 
 import { appRoutes } from './routing/app.routing';
 import { CustomPreloadingStrategy } from './routing/custom.preloading.strategy';
+import { AuthGuard } from './routing/auth.guard';
+import { AuthService } from './services/auth.service';
 
 import { AppComponent } from './app.component';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
@@ -30,7 +32,7 @@ import { HotOffersComponent } from './pages/hot-offers/hot-offers.component';
     HttpModule,
     RouterModule.forRoot(appRoutes, { preloadingStrategy: CustomPreloadingStrategy })
   ],
-  providers: [CustomPreloadingStrategy, CategoryService],
+  providers: [CustomPreloadingStrategy, AuthGuard, AuthService, CategoryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
