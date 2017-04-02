@@ -9,6 +9,15 @@
     margin: 0 auto;
 }
 
+.navbar-toggleable-sm {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-toggler {
+    color: $color-white;
+}
+
 .navbar-nav {
     flex-grow: 1;
     flex-basis: 0;
@@ -16,8 +25,18 @@
 
 .nav-item {
     width: 100%;
+    background: $color-navigation-bar;
     &:last-child {
         background: $color-hot-offer;
+    }
+    &:not(:last-child) {
+        border-left: 1px solid $color-navigation-bar-border;
+        &:hover {
+            background: $color-navigation-bar-selected;
+        }
+    }
+    &:hover a {
+        color: $color-white !important;
     }
 }
 
@@ -27,20 +46,56 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-top: 2px;
 }
 
 .navbar-title {
+    text-align: center;
     font-size: 12px;
+    & div {
+        line-height: 1.17;
+    }
 }
 
+//dropdown
 .dropdown-menu {
+    background: $color-navigation-bar-selected;
+    border: none;
+    border-radius: 0;
     margin-top: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    min-width: 194px;
+    height: 60px;
+    color: $color-white;
+    padding: 3px 20px 3px 10px;
+    &:hover {
+        background: $color-navigation-bar;
+    }
+    .nav-bar-icon {
+        margin-right: 15px;
+    }
+}
+
+.nav-bar-icon {
+    font-size: 45px;
 }
 
 @media screen and (max-width: $break-sm-max) {
+    .navbar-collapse {
+        padding-top: 5px;
+    }
     .nav-link {
         flex-direction: row;
         justify-content: flex-start;
+        padding-top: 8px;
+    }
+    .nav-item {
+        border: none !important;
     }
 }
 

@@ -1,6 +1,6 @@
 <div class="navigation-bar">
   <div class="container-fluid">
-    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+    <nav class="navbar navbar-toggleable-sm navbar-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -10,21 +10,25 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown" *ngFor="let category of categories">
             <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)" (click)="showCategory(category.catIndex)">
-              <i class="{{ category.icon }}"></i>
-              <span class="navbar-title" *ngFor="let nameLine of category.nameLines">{{ nameLine }}</span>
+              <i class="{{ category.icon }} nav-bar-icon"></i>
+              <div class="navbar-title">
+                <div *ngFor="let nameLine of category.nameLines">{{ nameLine }}</div>
+              </div>
             </a>
             <div class="dropdown-menu" *ngIf="category.subCategories">
               <a class="dropdown-item" *ngFor="let subCategory of category.subCategories" href="javascript:void(0)">
-                <i class="{{ subCategory.icon }}"></i>
+                <i class="{{ subCategory.icon }} nav-bar-icon"></i>
                 <span class="navbar-title">{{ subCategory.name }}</span>
               </a>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0)" (click)="showHotOffers()">
-              <i class="icon-nav-hotoffers"></i>
-              <span class="navbar-title">Hot</span>
-              <span class="navbar-title">Offers</span>
+              <i class="icon-nav-hotoffers nav-bar-icon"></i>
+              <div class="navbar-title">
+                 <div>Hot</div>
+              <div>Offers</div>
+              </div>
             </a>
           </li>
         </ul>
