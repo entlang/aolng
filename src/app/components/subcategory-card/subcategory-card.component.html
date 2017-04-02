@@ -1,0 +1,14 @@
+<div class="row">
+<div class="card col-md-4" *ngFor="let subcategory of category.subCategories">
+  <div class="card-block">
+    <i class="{{subcategory.icon}}"></i>
+    <span>{{subcategory.name}}</span>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" *ngFor="let subMenuItem of subcategory.subMenuItems">{{subMenuItem.name}}</li>
+  </ul>
+  <div class="footer">
+    View all
+  </div>
+</div>
+</div>

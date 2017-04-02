@@ -1,7 +1,7 @@
 @import '../../../sass/base/variables';
 .navigation-bar {
     width: 100%;
-    background: $color-navigation-bar;
+    background: $color-gray-default;
 }
 
 .navbar {
@@ -25,14 +25,14 @@
 
 .nav-item {
     width: 100%;
-    background: $color-navigation-bar;
+    background: $color-gray-default;
     &:last-child {
         background: $color-hot-offer;
     }
     &:not(:last-child) {
         border-left: 1px solid $color-navigation-bar-border;
         &:hover {
-            background: $color-navigation-bar-selected;
+            background: $color-gray-lighter;
         }
     }
     &:hover a {
@@ -59,7 +59,7 @@
 
 //dropdown
 .dropdown-menu {
-    background: $color-navigation-bar-selected;
+    background: $color-gray-lighter;
     border: none;
     border-radius: 0;
     margin-top: 0;
@@ -74,7 +74,7 @@
     color: $color-white;
     padding: 3px 20px 3px 10px;
     &:hover {
-        background: $color-navigation-bar;
+        background: $color-gray-default;
     }
     .nav-bar-icon {
         margin-right: 15px;

@@ -20,21 +20,57 @@
           "icon": "icon-nav-washers",
           "url": "/washing-machine-category/",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "Front Load Washing Machines"
+            },
+            {
+              "name": "Top Load Washing Machines"
+            },
+            {
+              "name": "Twin Tub Washers"
+            },
+            {
+              "name": "View All Washing Machines"
+            }
+          ]
         },
         {
           "name": "Dryers",
           "icon": "icon-nav-sub-dryers",
           "url": "/clothes-dryer-category/",
           "iconSize": "3.8em",
-          "tooltipSide": "bottom"
+          "tooltipSide": "bottom",
+          "subMenuItems": [
+            {
+              "name": "Vented Dryers"
+            },
+            {
+              "name": "Condenser Dryers"
+            },
+            {
+              "name": "Heat Pump Dryers"
+            },
+            {
+              "name": "Gas Dryers"
+            },
+            {
+              "name": "View All Dryers"
+            }
+          ]
         },
         {
           "name": "Washer Dryers",
           "icon": "icon-nav-sub-washerdryer",
           "url": "/washer-dryer-combo/",
           "iconSize": "4.7em",
-          "tooltipSide": "left"
+          "tooltipSide": "left",
+          "subMenuItems": [
+            {
+              "name": "View All Washer Dryer Combos"
+            }
+          ]
         }
       ]
     },
@@ -58,21 +94,75 @@
           "icon": "icon-nav-fridges",
           "url": "/fridges-all/",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "Top Mount Fridges"
+            },
+            {
+              "name": "Bottom Mount Fridges"
+            },
+            {
+              "name": "Upright fridges"
+            },
+            {
+              "name": "Integrated fridges"
+            },
+            {
+              "name": "French door fridges"
+            },
+            {
+              "name": "Side by side fridges"
+            },
+            {
+              "name": "Bar fridges"
+            },
+            {
+              "name": "View All Fridges"
+            }
+          ]
         },
         {
           "name": "Freezers",
           "icon": "icon-nav-sub-freezers",
           "url": "/freezers-all/",
           "iconSize": "3.8em",
-          "tooltipSide": "bottom"
+          "tooltipSide": "bottom",
+          "subMenuItems": [
+            {
+              "name": "Bar freezers"
+            },
+            {
+              "name": "Upright freezers"
+            },
+            {
+              "name": "Chest freezers"
+            },
+            {
+              "name": "View all freezers"
+            }
+          ]
         },
         {
           "name": "Beverage Fridges",
           "icon": "icon-nav-sub-beveragefridge",
           "url": "/beverages-fridges/",
           "iconSize": "3.8em",
-          "tooltipSide": "left"
+          "tooltipSide": "left",
+          "subMenuItems": [
+            {
+              "name": "Wine fridges"
+            },
+            {
+              "name": "Bar fridges"
+            },
+            {
+              "name": "Beverage centres"
+            },
+            {
+              "name": "View All Beverage fridges"
+            }
+          ]
         }
       ]
     },
@@ -96,28 +186,93 @@
           "icon": "icon-nav-dishwashers",
           "url": "/dishwashers/",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "Freestanding Dishwashers"
+            },
+            {
+              "name": "Small Dishwashers"
+            },
+            {
+              "name": "Semi Integrated Dishwashers"
+            },
+            {
+              "name": "Fully Integrated Dishwashers"
+            },
+            {
+              "name": "Benchtop Dishwashers"
+            },
+            {
+              "name": "Under Bench Dishwashers"
+            },
+            {
+              "name": "View All Dishwashers"
+            }
+          ]
         },
         {
           "name": "Sinks",
           "icon": "icon-nav-sub-sinks",
           "url": "/sinks/",
           "iconSize": "3.8em",
-          "tooltipSide": "bottom"
+          "tooltipSide": "bottom",
+          "subMenuItems": [
+            {
+              "name": "Undermount Sinks"
+            },
+            {
+              "name": "Top Mounted Sinks"
+            },
+            {
+              "name": "Laundry Tubs"
+            },
+            {
+              "name": "View All Sinks"
+            }
+          ]
         },
         {
           "name": "Taps",
           "icon": "icon-nav-sub-taps",
           "url": "/taps/",
           "iconSize": "3.8em",
-          "tooltipSide": "left"
+          "tooltipSide": "left",
+          "subMenuItems": [
+            {
+              "name": "Kitchen Mixer Taps"
+            },
+            {
+              "name": "Gooseneck Taps"
+            },
+            {
+              "name": "Black Mixer Taps"
+            },
+            {
+              "name": "Square Mixer Taps"
+            },
+            {
+              "name": "Spray Mixer Taps"
+            },
+            {
+              "name": "Pull Out Water Taps"
+            },
+            {
+              "name": "View All Taps"
+            }
+          ]
         },
         {
           "name": "Food Waste Disposal",
           "icon": "icon-nav-sub-foodwaste",
           "url": "/food-waste-disposers/",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "View All Food Waste Disposal"
+            }
+          ]
         }
       ]
     },
@@ -141,42 +296,126 @@
           "icon": "icon-nav-sub-oven",
           "url": "/ovens.aspx",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "Steam Ovens"
+            },
+            {
+              "name": "Pyrolytic Ovens"
+            },
+            {
+              "name": "Single Ovens"
+            },
+            {
+              "name": "Double Ovens"
+            },
+            {
+              "name": "Cooking Bundles/Packages"
+            },
+            {
+              "name": "View All Built in Ovens"
+            }
+          ]
         },
         {
           "name": "Stoves",
           "icon": "icon-nav-sub-stove",
           "url": "/all-stoves/",
           "iconSize": "3.8em",
-          "tooltipSide": "bottom"
+          "tooltipSide": "bottom",
+          "subMenuItems": [
+            {
+              "name": "Freestanding Stoves"
+            },
+            {
+              "name": "Elevated Stoves"
+            },
+            {
+              "name": "View All Stoves"
+            }
+          ]
         },
         {
           "name": "Cooktops",
           "icon": "icon-nav-cooktops",
           "url": "/all-cooktops/",
           "iconSize": "3em",
-          "tooltipSide": "left"
+          "tooltipSide": "left",
+          "subMenuItems": [
+            {
+              "name": "Gas Cooktops"
+            },
+            {
+              "name": "Electric Cooktops"
+            },
+            {
+              "name": "Induction Cooktops"
+            },
+            {
+              "name": "Domino 30cm Cooktops"
+            },
+            {
+              "name": "View All Cooktops"
+            }
+          ]
         },
         {
           "name": "Rangehoods",
           "icon": "icon-nav-sub-rangehoods",
           "url": "/all-rangehoods/",
           "iconSize": "3.8em",
-          "tooltipSide": "right"
+          "tooltipSide": "right",
+          "subMenuItems": [
+            {
+              "name": "Canopy"
+            },
+            {
+              "name": "Island"
+            },
+            {
+              "name": "Fixed"
+            },
+            {
+              "name": "Retractable"
+            },
+            {
+              "name": "Under Cupboard"
+            },
+            {
+              "name": "View All Rangehoods"
+            }
+          ]
         },
         {
           "name": "Cooking Appliance Accessories",
           "icon": "icon-nav-sub-cookingappliances",
           "url": "/cooking-appliance-accessories/",
           "iconSize": "3.8em",
-          "tooltipSide": "top"
+          "tooltipSide": "top",
+          "subMenuItems": [
+            {
+              "name": "Warming Drawers"
+            },
+            {
+              "name": "Splashbacks"
+            },
+            {
+              "name": "View All Cooking Appliance Accessories"
+            }
+          ]
         },
         {
           "name": "Kitchen Bundles",
           "icon": "icon-nav-sub-kitchenbundles",
           "url": "/oven-cooktop-packages/",
           "iconSize": "3em",
-          "tooltipSide": "left"
+          "tooltipSide": "left",
+          "subMenuItems": [
+            {
+              "name": "View All Kitchen Bundles"
+            }
+          ]
         },
         {
           "name": "Microwaves",

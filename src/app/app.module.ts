@@ -16,6 +16,7 @@ import { CategoryComponent } from './pages/category/category.component';
 import { SubcategoryComponent } from './pages/subcategory/subcategory.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HotOffersComponent } from './pages/hot-offers/hot-offers.component';
+import { SubcategoryCardComponent } from './components/subcategory-card/subcategory-card.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HotOffersComponent } from './pages/hot-offers/hot-offers.component';
     CategoryComponent,
     SubcategoryComponent,
     HomeComponent,
-    HotOffersComponent
+    HotOffersComponent,
+    SubcategoryCardComponent
   ],
   imports: [
     BrowserModule,
